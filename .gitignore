@@ -1,17 +1,33 @@
+# Node.js dependencies
 node_modules/
+
+# Environment files
 .env
 .env.local
+
+# Build artifacts
 build/
 dist/
 public/build/
+
+# IDE-specific files
 .idea/
 .vscode/
+
+# Log files
 *.log
+
+# Operating System files
 .DS_Store
 Thumbs.db
+
+# Temporary files
 *.tmp
 *.swp
 *.swo
-coverage/
-.npmrc
 
+# Testing
+coverage/
+
+# Dotfiles (can be added as needed)
+.npmrc
